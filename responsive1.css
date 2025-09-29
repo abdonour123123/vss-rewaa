@@ -1,0 +1,501 @@
+/* ✅ Medium screens: 768px–1199px (Tablets) */
+@media (max-width: 1199px) and (min-width: 768px) {
+  .element-widget-wrap {
+    flex-wrap: wrap;
+  }
+  .element-widget-wrap {
+    display: none;
+  }
+  .buttons {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 895px) {
+  .user-box {
+    max-width: 87rem;
+  }
+  .footer-second-part {
+    gap: 15rem;
+  }
+  .buttonss {
+    display: flex;
+  }
+}
+/* ✅ Small screens: below 768px, especially below 400px (Mobiles) */
+@media (max-width: 767px) {
+  .elemantor-widget-wrap {
+    display: none;
+  }
+
+  .header-container-2 {
+    display: flex;
+    align-items: center; /* vertically align Contact + Menu */
+    justify-content: space-between;
+    padding: 0 1rem;
+    flex-wrap: wrap; /* optional: add horizontal padding */
+  }
+
+  .buttons {
+    justify-content: space-between;
+    display: flex;
+
+    gap: 1.5rem;
+    width: 100rem;
+  }
+  .menu-icon {
+    display: flex;
+    max-width: 12.8rem;
+  }
+  .hero-container {
+    flex-direction: column;
+  }
+  .customer-images {
+    max-width: 70rem;
+  }
+  .customer-image {
+    max-width: 17rem;
+  }
+  .element-wrapper-widget {
+    flex-direction: column-reverse;
+  }
+  .business-container h2 {
+    font-size: 2rem;
+  }
+  .business-container {
+    align-items: flex-start;
+  }
+  .business-container .element-right-side {
+    padding-left: 2rem;
+  }
+  .element-text-side {
+    max-width: 55rem;
+  }
+  .cost-container {
+    max-width: 67rem;
+    width: 100%;
+  }
+  .offer-container {
+    display: block;
+  }
+  .offer-container .offers {
+    flex-direction: column;
+    background: none;
+
+    justify-content: center;
+  }
+  .offer-container .element-wrapper-widget {
+    flex-direction: column;
+  }
+  .offer-container .offers a {
+    padding: 1.5rem;
+    justify-content: flex-start;
+    background-color: white;
+  }
+  .element-right-side {
+    max-height: 26rem;
+  }
+  .user-container.container {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+  .user-links {
+    flex-direction: column;
+  }
+  .user-box {
+    max-height: 100rem;
+    height: 100%;
+    max-width: 79rem;
+  }
+  .user-links a img {
+    max-width: 5rem;
+  }
+  .user-text-box {
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+  }
+
+  .user-pair {
+    width: 100%;
+  }
+  .user-pair .user-text-box {
+    display: flex;
+  }
+  .faq-container {
+    flex-direction: column;
+    display: flex;
+    gap: 0rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .faq-container .right-side,
+  .faq-container .left-side {
+    max-width: 99%;
+  }
+  .footer-first-part {
+    flex-direction: column;
+  }
+  .footer-first-part .footer-title {
+    font-size: 3.2rem;
+  }
+  .buttonss {
+    justify-content: space-between;
+    display: flex;
+    gap: 1.5rem;
+    max-width: 63rem;
+  }
+  .footer-second-part {
+    flex-direction: column;
+    display: flex;
+    padding-left: 2rem;
+    gap: 2rem;
+  }
+  .footer-box img {
+    max-width: 7.5rem;
+  }
+  .footer-first-part ::after {
+    bottom: -10%;
+    width: 100%;
+    left: 0;
+  }
+}
+/* ✅ Extra tiny screens (below 400px) */
+@media (max-width: 600px) {
+  .customer-images {
+    max-width: 50rem;
+  }
+  .customer-image {
+    max-width: 12rem;
+  }
+  .hero-image {
+    max-width: 25rem;
+  }
+  .elmenet-button {
+    padding: 6px 12px 6px 6px;
+    font-size: 1.2rem;
+  }
+  .element-left-side h2 {
+    font-size: 4rem;
+  }
+  .text-side .text-wrapper {
+    font-size: 1.6rem;
+  }
+  .element-text-side .element-text-title {
+    font-size: 1.2rem;
+  }
+  .element-text-side p {
+    font-size: 1rem;
+  }
+  .cost-container {
+    margin-top: 2.6rem;
+  }
+  .cost-container .section-title h2 {
+    font-size: 1.6rem;
+    max-width: 25rem;
+  }
+  .cost-advantages p {
+    font-size: 1rem;
+  }
+  .cost-advantages svg {
+    max-width: 3rem;
+  }
+  .element-right-side {
+    padding-left: 1rem;
+  }
+  .user-text-box h3 {
+    font-size: 2.4rem;
+  }
+  .user-text-box p {
+    font-size: 1.2rem;
+  }
+  .user-links a p {
+    font-size: 1.6rem;
+  }
+  .user-links a img {
+    max-width: 4rem;
+  }
+  .footer-first-part ::after {
+    top: 20%;
+    bottom: -0.6rem;
+    opacity: 50%;
+  }
+  .user-text-box.user-text-box-1 p {
+    padding: 2rem;
+    padding-left: 0;
+  }
+  .user-container.container {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+}
+
+/* ✅ Extra tiny screens (below 400px) */
+@media (max-width: 500px) {
+  .customer-images {
+    max-width: 40rem;
+  }
+  .customer-image {
+    max-width: 8rem;
+  }
+  .user-links {
+    padding: 0;
+  }
+  .user-container.container {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+  .user-text-box.user-text-box-1 p {
+    padding: 2rem;
+    padding-left: 0;
+  }
+}
+
+/* ✅ Medium screens: 768px–1199px (Tablets) */
+@media (max-width: 1199px) and (min-width: 768px) {
+  .element-widget-wrap {
+    flex-wrap: wrap;
+  }
+  .element-widget-wrap {
+    display: none;
+  }
+  .buttons {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 895px) {
+  .user-box {
+    max-width: 87rem;
+  }
+  .footer-second-part {
+    gap: 15rem;
+  }
+  .buttonss {
+    display: flex;
+  }
+}
+/* ✅ Small screens: below 768px, especially below 400px (Mobiles) */
+@media (max-width: 767px) {
+  .elemantor-widget-wrap {
+    display: none;
+  }
+
+  .header-container-2 {
+    display: flex;
+    align-items: center; /* vertically align Contact + Menu */
+    justify-content: space-between;
+    padding: 0 1rem;
+    flex-wrap: wrap; /* optional: add horizontal padding */
+  }
+
+  .buttons {
+    justify-content: space-between;
+    display: flex;
+
+    gap: 1.5rem;
+    width: 100rem;
+  }
+  .menu-icon {
+    display: flex;
+    max-width: 12.8rem;
+  }
+  .hero-container {
+    flex-direction: column;
+  }
+  .customer-images {
+    max-width: 70rem;
+  }
+  .customer-image {
+    max-width: 17rem;
+  }
+  .element-wrapper-widget {
+    flex-direction: column-reverse;
+  }
+  .business-container h2 {
+    font-size: 2rem;
+  }
+  .business-container {
+    align-items: flex-start;
+  }
+  .business-container .element-right-side {
+    padding-left: 2rem;
+  }
+  .element-text-side {
+    max-width: 55rem;
+  }
+  .cost-container {
+    max-width: 67rem;
+    width: 100%;
+  }
+  .offer-container {
+    display: block;
+  }
+  .offer-container .offers {
+    flex-direction: column;
+    background: none;
+
+    justify-content: center;
+  }
+  .offer-container .element-wrapper-widget {
+    flex-direction: column;
+  }
+  .offer-container .offers a {
+    padding: 1.5rem;
+    justify-content: flex-start;
+    background-color: white;
+  }
+  .element-right-side {
+    max-height: 26rem;
+  }
+  .user-container.container {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+  .user-links {
+    flex-direction: column;
+  }
+  .user-box {
+    max-height: 100rem;
+    height: 100%;
+    max-width: 79rem;
+  }
+  .user-links a img {
+    max-width: 5rem;
+  }
+  .user-text-box {
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+  }
+
+  .user-pair {
+    width: 100%;
+  }
+  .user-pair .user-text-box {
+    display: flex;
+  }
+  .faq-container {
+    flex-direction: column;
+    display: flex;
+    gap: 0rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .faq-container .right-side,
+  .faq-container .left-side {
+    max-width: 99%;
+  }
+  .footer-first-part {
+    flex-direction: column;
+  }
+  .footer-first-part .footer-title {
+    font-size: 3.2rem;
+  }
+  .buttonss {
+    justify-content: space-between;
+    display: flex;
+    gap: 1.5rem;
+    max-width: 63rem;
+  }
+  .footer-second-part {
+    flex-direction: column;
+    display: flex;
+    padding-left: 2rem;
+    gap: 2rem;
+  }
+  .footer-box img {
+    max-width: 7.5rem;
+  }
+  .footer-first-part ::after {
+    bottom: -10%;
+    width: 100%;
+    left: 0;
+  }
+}
+/* ✅ Extra tiny screens (below 400px) */
+@media (max-width: 600px) {
+  .customer-images {
+    max-width: 50rem;
+  }
+  .customer-image {
+    max-width: 12rem;
+  }
+  .hero-image {
+    max-width: 25rem;
+  }
+  .elmenet-button {
+    padding: 6px 12px 6px 6px;
+    font-size: 1.2rem;
+  }
+  .element-left-side h2 {
+    font-size: 4rem;
+  }
+  .text-side .text-wrapper {
+    font-size: 1.6rem;
+  }
+  .element-text-side .element-text-title {
+    font-size: 1.2rem;
+  }
+  .element-text-side p {
+    font-size: 1rem;
+  }
+  .cost-container {
+    margin-top: 2.6rem;
+  }
+  .cost-container .section-title h2 {
+    font-size: 1.6rem;
+    max-width: 25rem;
+  }
+  .cost-advantages p {
+    font-size: 1rem;
+  }
+  .cost-advantages svg {
+    max-width: 3rem;
+  }
+  .element-right-side {
+    padding-left: 1rem;
+  }
+  .user-text-box h3 {
+    font-size: 2.4rem;
+  }
+  .user-text-box p {
+    font-size: 1.2rem;
+  }
+  .user-links a p {
+    font-size: 1.6rem;
+  }
+  .user-links a img {
+    max-width: 4rem;
+  }
+  .footer-first-part ::after {
+    top: 20%;
+    bottom: -0.6rem;
+    opacity: 50%;
+  }
+  .user-text-box.user-text-box-1 p {
+    padding: 2rem;
+    padding-left: 0;
+  }
+  .user-container.container {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+}
+
+/* ✅ Extra tiny screens (below 400px) */
+@media (max-width: 500px) {
+  .customer-images {
+    max-width: 40rem;
+  }
+  .customer-image {
+    max-width: 8rem;
+  }
+  .user-links {
+    padding: 0;
+  }
+  .user-container.container {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+  .user-text-box.user-text-box-1 p {
+    padding: 2rem;
+    padding-left: 0;
+  }
+}
